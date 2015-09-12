@@ -48,7 +48,7 @@ public class SmarterAdapter extends RecyclerView.Adapter<ViewHolder> {
 
     // Not all models are created equal. In our case, not all of these albums came out at the same
     // time. If this were a real app, we'd want to display new albums as large to promote them in
-    // order to be distinguishable from the others. Since we're only using a small list of items
+    // order to be distinguishable from the others.
     //
     // This is "smarter" for lack of a better word, as we can hook into how we know models meeting
     // certain criteria should be displayed. It's not actually that much smarter, just a reminder
