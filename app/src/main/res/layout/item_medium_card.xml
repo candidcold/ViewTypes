@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/medium_card_height"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/album_cover"
+            android:layout_width="@dimen/medium_card_image_width"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:id="@+id/artist_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/album_cover"
+            android:layout_toEndOf="@id/album_cover"
+            />
+
+        <TextView
+            android:id="@+id/album_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/album_cover"
+            android:layout_below="@id/artist_name"
+            android:layout_toEndOf="@id/album_cover"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
