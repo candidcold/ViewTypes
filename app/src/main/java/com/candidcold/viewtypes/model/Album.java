@@ -8,7 +8,6 @@ public class Album{
     String artist;
     String releaseDate;
     int coverArt;           // Contains a reference to a drawable
-    int layout;             // For more complex layouts
     int sales;
 
     public Album(String title, String artist, String releaseDate, int coverArt, int sales) {
@@ -49,14 +48,6 @@ public class Album{
 
     public void setCoverArt(int coverArt) {
         this.coverArt = coverArt;
-    }
-
-    public int getLayout() {
-        return layout;
-    }
-
-    public void setLayout(int layout) {
-        this.layout = layout;
     }
 
     public String getTitle() {
