@@ -1,5 +1,5 @@
 # ViewTypes
-Just a small project I made to demonstrate how the viewType parameter of RecyclerViews work, and how to use them to make lists a bit more fun.
+Just a small project I made to demonstrate how the viewType parameter of RecyclerViews work, and how to use them to make lists a bit more fun. The accompanying blog post can be found here: https://candidcold.wordpress.com/2015/09/12/aint-nothin-but-a-viewtype-baby/
 
 Here's a look at how each of the lists actually looks like if you were to load the app. Mind you, it's not beautiful by any means, but it's just as a demonstration.
 
